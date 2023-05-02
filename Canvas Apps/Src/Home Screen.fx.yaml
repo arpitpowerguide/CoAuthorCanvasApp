@@ -63,7 +63,7 @@
             =Patch(Contacts, Defaults(Contacts), { 'First Name': firstNameInput.Text }, { 'Last Name': lastNameInput.Text },{ Email: emailaddressInput.Text },{ 'Job Title': jobTitleInput.Text },{ 'Mobile Phone': mobileInput.Text });
             Navigate('Success Screen');
         Size: =20
-        Text: ="Submit"
+        Text: ="Create"
         Width: =255
         X: =54
         Y: =1025
