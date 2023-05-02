@@ -1,0 +1,38 @@
+Header As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    HeaderIconColor: =RGBA(0, 0, 0, 1)
+    HeaderTitle: ="Text"
+    Height: =App.Height/12
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "'Header Div' As rectangle":
+        Fill: =RGBA(39, 113, 194, 1)
+        Width: =640
+        ZIndex: =1
+
+    Icon1 As icon.Hamburger:
+        Color: =Header.HeaderIconColor
+        Icon: =Icon.Hamburger
+        X: =14
+        Y: =18
+        ZIndex: =2
+
+    "'Support iCon' As icon.Support":
+        Color: =Header.HeaderIconColor
+        Icon: =Icon.Support
+        X: =556
+        Y: =18
+        ZIndex: =3
+
+    "'Header Title' As label":
+        Align: =Align.Center
+        Height: =94.66666666666667
+        Size: =30
+        Text: =Header.HeaderTitle
+        Width: =464
+        X: =92
+        ZIndex: =4
+

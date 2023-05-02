@@ -1,0 +1,50 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Header",
+    "TemplateGuid": "561c17a2edf34ea0b51896986dbc1192"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "Header Icon Color",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "HeaderIconColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.330\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Header Title",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "HeaderTitle",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.330\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": true,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638186371748301117",
+  "Name": "561c17a2edf34ea0b51896986dbc1192",
+  "OverridableProperties": {},
+  "SourceLibraryId": "88799eda-0b7a-4a76-94df-a6cdc08c508f",
+  "SourceLibraryLogicalName": "cr85b_headerfootercomponentlib_fe49e",
+  "TemplateOriginalName": "32ac8f005f884c95a2962c611bf2edb9",
+  "Version": "638184484256176110"
+}

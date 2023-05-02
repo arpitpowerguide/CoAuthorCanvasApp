@@ -1,0 +1,40 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Footer",
+    "TemplateGuid": "d88c5d145fdb4f0a9086af35ba09d831"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "Footer Icon Color",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "FooterIconColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.330\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": true,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638186371748196354",
+  "Name": "d88c5d145fdb4f0a9086af35ba09d831",
+  "OverridableProperties": {},
+  "SourceLibraryId": "88799eda-0b7a-4a76-94df-a6cdc08c508f",
+  "SourceLibraryLogicalName": "cr85b_headerfootercomponentlib_fe49e",
+  "TemplateOriginalName": "f5f3082f47ce4df38b45601d61ab0693",
+  "Version": "638184487120868525"
+}

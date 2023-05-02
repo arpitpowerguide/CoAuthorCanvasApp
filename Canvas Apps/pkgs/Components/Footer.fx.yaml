@@ -1,0 +1,49 @@
+Footer As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    FooterIconColor: =RGBA(0, 0, 0, 1)
+    Height: =App.Height/12
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "'Footer Div' As rectangle":
+        Fill: =RGBA(39, 113, 194, 1)
+        Width: =640
+        ZIndex: =1
+
+    "'Home Icon' As icon.Hamburger":
+        Color: =Footer.FooterIconColor
+        Icon: =Icon.Home
+        X: =14
+        Y: =18
+        ZIndex: =2
+
+    "'Bell Icon' As icon.Support":
+        Color: =Footer.FooterIconColor
+        Icon: =Icon.Bell
+        X: =556
+        Y: =18
+        ZIndex: =3
+
+    "'Add icon' As icon.Add":
+        Color: =Footer.FooterIconColor
+        Icon: =Icon.Add
+        X: =285
+        Y: =18
+        ZIndex: =4
+
+    "'Calendar Icon' As icon.CalendarBlank":
+        Color: =Footer.FooterIconColor
+        Icon: =Icon.CalendarBlank
+        X: =428
+        Y: =18
+        ZIndex: =5
+
+    "'Customer Icon' As icon.CalendarBlank":
+        Color: =Footer.FooterIconColor
+        Icon: =Icon.Person
+        X: =139
+        Y: =18
+        ZIndex: =6
+

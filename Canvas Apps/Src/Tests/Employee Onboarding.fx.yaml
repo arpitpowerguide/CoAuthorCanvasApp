@@ -1,0 +1,38 @@
+"'3c9a1eb8-9434-41a9-af1c-949632621f3d' As TestSuite":
+    Description: ="to test employee onboarding process"
+    DisplayName: ="Employee Onboarding"
+
+    "'d4e5579e-eef1-478a-bb87-09813b84d791' As TestCase":
+        Description: ="test steps to create new employee data in dataverse"
+        DisplayName: ="Create new employee"
+
+        Step1 As TestStep:
+            Description: ="Set 'firstNameInput'.Text to ""Arpit"""
+            Screen: =Home Screen
+            Value: =SetProperty(firstNameInput.Text, "Arpit")
+
+        Step2 As TestStep:
+            Description: ="Set 'lastNameInput'.Text to ""Shrivastava"""
+            Screen: =Home Screen
+            Value: =SetProperty(lastNameInput.Text, "Shrivastava")
+
+        Step3 As TestStep:
+            Description: ="Set 'emailaddressInput'.Text to ""arpit@powercommunity.com"""
+            Screen: =Home Screen
+            Value: =SetProperty(emailaddressInput.Text, "arpit@powercommunity.com")
+
+        Step4 As TestStep:
+            Description: ="Set 'mobileInput'.Text to ""123456"""
+            Screen: =Home Screen
+            Value: =SetProperty(mobileInput.Text, "123456")
+
+        Step5 As TestStep:
+            Description: ="Set 'jobTitleInput'.Text to ""Architect"""
+            Screen: =Home Screen
+            Value: =SetProperty(jobTitleInput.Text, "Architect")
+
+        Step6 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Home Screen
+            Value: =Select(Button1)
+
