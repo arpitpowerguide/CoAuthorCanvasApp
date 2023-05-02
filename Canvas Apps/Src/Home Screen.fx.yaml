@@ -88,7 +88,7 @@
         Align: =Align.Center
         Height: =136
         Size: =30
-        Text: ="Registration Form"
+        Text: ="Onboarding Form"
         Width: =640
         Y: =4
         ZIndex: =24
