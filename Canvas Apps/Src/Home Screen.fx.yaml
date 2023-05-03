@@ -1,6 +1,7 @@
 "'Home Screen' As screen":
 
     firstNameInput As text:
+        AccessibleLabel: ="Enter you first name here"
         BorderStyle: =BorderStyle.None
         Default: =""
         Fill: =RGBA(237, 237, 237, 1)
@@ -12,6 +13,7 @@
         ZIndex: =17
 
     lastNameInput As text:
+        AccessibleLabel: ="Please enter your last name"
         BorderStyle: =BorderStyle.None
         Default: =""
         Fill: =RGBA(237, 237, 237, 1)
@@ -96,7 +98,7 @@
     Label2_1 As label:
         FontWeight: =FontWeight.Semibold
         Height: =74
-        Size: =20
+        Size: =24
         Text: ="First Name"
         Width: =256
         X: =40
@@ -106,7 +108,7 @@
     Label2_2 As label:
         FontWeight: =FontWeight.Semibold
         Height: =74
-        Size: =20
+        Size: =24
         Text: ="Last Name"
         Width: =256
         X: =40
@@ -116,7 +118,7 @@
     Label2_3 As label:
         FontWeight: =FontWeight.Semibold
         Height: =74
-        Size: =20
+        Size: =24
         Text: ="Email Address"
         Width: =256
         X: =40
@@ -126,7 +128,7 @@
     Label2_4 As label:
         FontWeight: =FontWeight.Semibold
         Height: =74
-        Size: =20
+        Size: =24
         Text: ="Mobile No"
         Width: =256
         X: =40
@@ -136,7 +138,7 @@
     Label2_5 As label:
         FontWeight: =FontWeight.Semibold
         Height: =74
-        Size: =20
+        Size: =24
         Text: ="Job Title"
         Width: =256
         X: =40

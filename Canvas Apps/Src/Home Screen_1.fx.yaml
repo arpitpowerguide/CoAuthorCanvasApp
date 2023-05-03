@@ -1,0 +1,121 @@
+"'Home Screen_1' As screen":
+
+    firstNameInput_1 As text:
+        AccessibleLabel: ="This is a text input control. Please enter you first name here"
+        BorderStyle: =BorderStyle.None
+        Default: =""
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =222
+        ZIndex: =17
+
+    Button1_2 As button:
+        Fill: =RGBA(39, 113, 194, 1)
+        FontWeight: =FontWeight.Normal
+        Height: =70
+        OnSelect: =
+        Size: =20
+        Text: ="Create"
+        Width: =255
+        X: =54
+        Y: =1041
+        ZIndex: =22
+
+    Button1_3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Normal
+        Height: =70
+        OnSelect: =
+        Size: =20
+        Text: ="Cancel"
+        Width: =258
+        X: =327
+        Y: =1041
+        ZIndex: =23
+
+    Label2_6 As label:
+        Align: =Align.Center
+        Height: =136
+        Size: =30
+        Text: ="Onboarding Form"
+        Width: =640
+        ZIndex: =24
+
+    Label2_7 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =74
+        Size: =24
+        Text: ="Full Name"
+        Width: =256
+        X: =40
+        Y: =148
+        ZIndex: =25
+
+    PenInput1 As inkControl:
+        AccessibleLabel: ="It's a pen input control, where you have to either draw your signature or simply type your name"
+        Width: =560
+        X: =40
+        Y: =747
+        ZIndex: =26
+
+    Label2_8 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =77
+        Size: =24
+        Text: ="Are you a Microsoft MVP"
+        Width: =419
+        X: =40
+        Y: =319
+        ZIndex: =28
+
+    Label2_9 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =77
+        Size: =24
+        Text: ="Signature"
+        Width: =419
+        X: =40
+        Y: =667
+        ZIndex: =30
+
+    Label2_10 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =74
+        Size: =24
+        Text: ="Domain Expertise"
+        Tooltip: ="Domain Expertise"
+        Width: =310
+        X: =40
+        Y: =510
+        ZIndex: =32
+
+    Toggle2 As toggleSwitch:
+        AccessibleLabel: ="This is a toggle control indicating whether you are Microsoft MVP or not. Default valus is No, if you are Microsoft MVP change toggle value to true"
+        FalseText: ="No"
+        Height: =49
+        Size: =21
+        TrueText: ="Yes"
+        Width: =154
+        X: =40
+        Y: =413
+        ZIndex: =33
+
+    ComboBox1 As combobox:
+        AccessibleLabel: |-
+            ="This is a dropdown control, where your have to choose your domain expertise from one of the following options: Dynamics 365, Power Platform and Microsoft Azure"
+        DisplayFields: =["Value"]
+        Height: =70
+        IsSearchable: =false
+        Items: =["Dynamics 365", "Power Platform", "Microsoft Azure"]
+        SearchFields: =["Value"]
+        SearchItems: =[]
+        Size: =21
+        Width: =575
+        X: =40
+        Y: =590
+        ZIndex: =34
+
