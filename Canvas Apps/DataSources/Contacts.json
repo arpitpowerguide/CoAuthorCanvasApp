@@ -83,6 +83,49 @@
       "address3_telephone3": "Address 3: Telephone3",
       "address3_upszone": "Address 3: UPS Zone",
       "address3_utcoffset": "Address 3: UTC Offset",
+      "adx_changedcontact_webpagehistory": "Web Page History",
+      "adx_confirmremovepassword": "Confirm Remove Password",
+      "adx_contact_externalidentity": "External Identities",
+      "adx_contact_pagenotification": "Page Notifications",
+      "adx_contact_pollsubmission": "Poll Submissions",
+      "adx_contact_webfilelog": "Web File Logs",
+      "adx_contact_webpage": "Web Pages",
+      "adx_contact_webpagelog": "Web Page Logs",
+      "adx_createdbyipaddress": "Created By IP Address",
+      "adx_createdbyusername": "Created By Username",
+      "adx_identity_accessfailedcount": "Access Failed Count",
+      "adx_identity_emailaddress1confirmed": "Email Confirmed",
+      "adx_identity_lastsuccessfullogin": "Last Successful Login",
+      "adx_identity_locallogindisabled": "Local Login Disabled",
+      "adx_identity_lockoutenabled": "Lockout Enabled",
+      "adx_identity_lockoutenddate": "Lockout End Date",
+      "adx_identity_logonenabled": "Login Enabled",
+      "adx_identity_mobilephoneconfirmed": "Mobile Phone Confirmed",
+      "adx_identity_newpassword": "New Password Input",
+      "adx_identity_passwordhash": "Password Hash",
+      "adx_identity_securitystamp": "Security Stamp",
+      "adx_identity_twofactorenabled": "Two Factor Enabled",
+      "adx_identity_username": "User Name",
+      "adx_invitation_invitecontact": "Invitations (adx_invitation_invitecontact)",
+      "adx_invitation_invitecontacts": "Invitations (adx_invitation_invitecontacts)",
+      "adx_invitation_invitercontact": "Invitations (adx_invitation_invitercontact)",
+      "adx_invitation_redeemedContact": "Invitations (adx_invitation_redeemedContact)",
+      "adx_invitation_redeemedcontacts": "Invitations (adx_invitation_redeemedcontacts)",
+      "adx_modifiedbyipaddress": "Modified By IP Address",
+      "adx_modifiedbyusername": "Modified By Username",
+      "adx_organizationname": "Organization Name",
+      "adx_preferredlanguageid": "Preferred Language",
+      "adx_profilealert": "Profile Alert",
+      "adx_profilealertdate": "Profile Alert Date",
+      "adx_profilealertinstructions": "Profile Alert Instructions",
+      "adx_profileisanonymous": "Profile Is Anonymous",
+      "adx_profilelastactivity": "Profile Last Activity",
+      "adx_profilemodifiedon": "Profile Modified On",
+      "adx_publicprofilecopy": "Public Profile Copy",
+      "adx_subscribercontact_pagealert": "Page Alerts",
+      "adx_timezone": "Time Zone",
+      "adx_webformsession_contact": "Multistep Form Sessions",
+      "adx_webrole_contact": "Web Roles",
       "aging30": "Aging 30",
       "aging30_base": "Aging 30 (Base)",
       "aging60": "Aging 60",
@@ -95,12 +138,17 @@
       "assistantname": "Assistant",
       "assistantphone": "Assistant Phone",
       "birthdate": "Birthday",
+      "bp_defaultApplication_Contact": "Applications",
+      "bpf_contact_adx_bpf_c2857b638fa7473d8e2f112c232cebd8": "Change Password for Portals Contact",
       "business2": "Business Phone 2",
       "callback": "Callback Number",
       "childrensnames": "Children's Names",
       "company": "Company Phone",
       "contact_actioncard": "Action Cards",
       "Contact_ActivityPointers": "Activities",
+      "contact_adx_alertsubscriptions": "Alert Subscriptions",
+      "contact_adx_inviteredemptions": "Invite Redemptions",
+      "contact_adx_portalcomments": "Portal Comments",
       "Contact_Annotation": "Notes",
       "Contact_Appointments": "Appointments",
       "Contact_AsyncOperations": "System Jobs",
@@ -131,6 +179,7 @@
       "Contact_SyncErrors": "Sync Errors",
       "Contact_Tasks": "Tasks",
       "contactid": "Contact",
+      "contoso_Permit_Contact_Contact": "Permits",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -186,6 +235,11 @@
       "modifiedby": "Modified By",
       "modifiedon": "Modified On",
       "modifiedonbehalfby": "Modified By (Delegate)",
+      "msa_managingpartnerid": "Managing Partner",
+      "msdyn_disablewebtracking": "Disable Web Tracking",
+      "msdyn_isminor": "Is Minor",
+      "msdyn_isminorwithparentalconsent": "Is Minor with Parental Consent",
+      "msdyn_portaltermsagreementdate": "Portal Terms Agreement Date",
       "nickname": "Nickname",
       "numberofchildren": "No. of Children",
       "onholdtime": "On Hold Time (Minutes)",
@@ -248,6 +302,186 @@
       "ab582fb0-a846-453e-ad88-77f75ce91264": "My Connections",
       "eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8": "Entitlement Contacts"
     }
+  },
+  {
+    "DisplayName": "Confirm Remove Password (Contacts)",
+    "Name": "adx_contact_adx_confirmremovepassword",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_confirmremovepassword",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_confirmremovepassword",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Email Confirmed (Contacts)",
+    "Name": "adx_contact_adx_identity_emailaddress1confirmed",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_emailaddress1confirmed",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_emailaddress1confirmed",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Local Login Disabled (Contacts)",
+    "Name": "adx_contact_adx_identity_locallogindisabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_locallogindisabled",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_locallogindisabled",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lockout Enabled (Contacts)",
+    "Name": "adx_contact_adx_identity_lockoutenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_lockoutenabled",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_lockoutenabled",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Login Enabled (Contacts)",
+    "Name": "adx_contact_adx_identity_logonenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_logonenabled",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_logonenabled",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Mobile Phone Confirmed (Contacts)",
+    "Name": "adx_contact_adx_identity_mobilephoneconfirmed",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_mobilephoneconfirmed",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_mobilephoneconfirmed",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Two Factor Enabled (Contacts)",
+    "Name": "adx_contact_adx_identity_twofactorenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_identity_twofactorenabled",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_identity_twofactorenabled",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Profile Alert (Contacts)",
+    "Name": "adx_contact_adx_profilealert",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_profilealert",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_profilealert",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Profile Is Anonymous (Contacts)",
+    "Name": "adx_profileisanonymous_contact",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "adx_profileisanonymous",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "adx_profileisanonymous",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Role (Contacts)",
@@ -1054,6 +1288,66 @@
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Disable Web Tracking (Contacts)",
+    "Name": "msdyn_contact_msdyn_disablewebtracking",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_disablewebtracking",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_disablewebtracking",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Minor (Contacts)",
+    "Name": "msdyn_contact_msdyn_isminor",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_isminor",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_isminor",
+    "RelatedEntityName": "Contacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Minor with Parental Consent (Contacts)",
+    "Name": "msdyn_contact_msdyn_isminorwithparentalconsent",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "msdyn_isminorwithparentalconsent",
+        "OptionSetReferenceEntityName": "Contacts"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "msdyn_isminorwithparentalconsent",
     "RelatedEntityName": "Contacts",
     "Type": "OptionSetInfo"
   }
