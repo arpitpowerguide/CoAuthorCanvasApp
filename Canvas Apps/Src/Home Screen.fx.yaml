@@ -58,7 +58,7 @@
         ZIndex: =21
 
     Button1 As button:
-        Fill: =RGBA(54, 176, 75, 1)
+        Fill: =RGBA(9, 33, 98, 1)
         FontWeight: =FontWeight.Normal
         Height: =70
         OnSelect: |-
